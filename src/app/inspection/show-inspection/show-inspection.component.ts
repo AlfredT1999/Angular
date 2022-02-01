@@ -19,6 +19,6 @@ export class ShowInspectionComponent implements OnInit {
 
   ngOnInit(): void {
     this.inspectionList$ = this.service.getInspectionList();
+    this.inspectionTypesList$ = this.service.getInspectionTypesList();
   }
-
 }
